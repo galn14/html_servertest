@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Krona+One&display=swap");
+
+body {
+  background: #d6d6d4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "Inter";
+}
+
+h1 {
+  font-family: "Krona One";
+  font-size: 3rem;
+}
+
+.wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Changed property */
+  align-items: center;
+}
+
+.heading {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
