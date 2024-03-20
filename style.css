@@ -15,6 +15,22 @@ h1 {
   font-size: 3rem;
 }
 
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+a,
+a:visited,
+a:active {
+  color: #0015CE;
+  text-decoration: none;
+}
+
+
+
 .wrapper {
   flex-grow: 1;
   display: flex;
